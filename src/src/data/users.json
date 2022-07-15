@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "nome": "Joaquim",
+    "sobrenome": "Souza",
+    "apelido": "Joqui",
+    "senha": "123",
+    "email": "joaquim.souza@email.com",
+    "admin": true,
+    "criadoEm": "2021-09-13T00:55:49.130Z",
+    "modificadoEm": "2021-09-30T00:40:53.344Z"
+  },
+  {
+    "id": 2,
+    "nome": "Renata",
+    "sobrenome": "Pereiria",
+    "apelido": "Renatinha",
+    "senha": "123",
+    "email": "renata@email.com",
+    "admin": false,
+    "criadoEm": "2021-09-13T00:55:49.130Z",
+    "modificadoEm": "2021-09-30T00:40:53.344Z"
+  },
+  {
+    "id": 3,
+    "nome": "Roberto",
+    "sobrenome": "Oliveira",
+    "apelido": "Rob",
+    "senha": "123",
+    "email": "roberto@email.com",
+    "admin": false,
+    "criadoEm": "2021-09-13T00:55:49.130Z",
+    "modificadoEm": "2021-09-30T00:40:53.344Z"
+  },
+  {
+    "id": 4,
+    "nome": "Luiz",
+    "sobrenome": "Santiago",
+    "apelido": "Luz",
+    "senha": "123",
+    "email": "luiz@email.com",
+    "admin": false,
+    "criadoEm": "2021-09-13T00:55:49.130Z",
+    "modificadoEm": "2021-09-30T00:40:53.344Z"
+  },
+  {
+    "nome": "Henrique",
+    "sobrenome": "Serra",
+    "apelido": "SerraZ",
+    "senha": "123",
+    "email": "henrique@email.com",
+    "criadoEm": "2022-07-14T23:12:32.237Z",
+    "modificadoEm": "2022-07-14T23:12:32.237Z",
+    "admin": false,
+    "id": 5
+  },
+  {
+    "nome": "Henrique 2",
+    "sobrenome": "Serra",
+    "apelido": "SerraZ",
+    "senha": "123",
+    "email": "henrique@email.com",
+    "criadoEm": "2022-07-14T23:16:58.026Z",
+    "modificadoEm": "2022-07-14T23:16:58.026Z",
+    "admin": false,
+    "id": 6
+  },
+  {
+    "id": 7,
+    "nome": "Joaquim",
+    "sobrenome": "Pereira",
+    "apelido": "Joaquim",
+    "senha": "123",
+    "email": "joaquim@email.com",
+    "admin": false,
+    "criadoEm": "2022-07-14T23:21:37.043Z",
+    "modificadoEm": "2022-07-14T23:21:37.043Z"
+  }
+]
