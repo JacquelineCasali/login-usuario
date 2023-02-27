@@ -1,5 +1,5 @@
 Projeto
-Sistema de Login e Logaut
+Sistema de Login e Logout
 
 Tecnologias
 
