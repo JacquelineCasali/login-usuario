@@ -19,7 +19,7 @@ const authController = {
       "utf-8"
     );
     const users = JSON.parse(usersJson);
-// console.log(users)
+    // console.log(users)
     const { nome, sobrenome, apelido, email, senha, confirmar_senha } =
       req.body;
     // VALIDAÇÕES
@@ -69,7 +69,7 @@ const authController = {
       // Conteúdo que será salvo no arquivo
       JSON.stringify(users)
     );
-    res.redirect("/");
+    res.redirect("/login");
   },
   // Tela para realizar login
   login: (req, res) => {
@@ -118,7 +118,7 @@ const authController = {
     res.cookie("user", user);
     res.cookie("admin", user.admin);
 
-    res.redirect("/");
+    res.redirect("/sucesso");
   },
   // Processamento do deslogar
   logout: (req, res) => {

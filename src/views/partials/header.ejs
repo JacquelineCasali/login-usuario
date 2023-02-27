@@ -1,13 +1,13 @@
 <header>
   <div>
-    <a href="/">Página inicial</a>
-    <% if(locals.user && locals.admin) {%> |
-    <a href="/admin">Administrador</a>
-    <% }%> <% if(locals.user){%> |
+    <!-- <a href="/">Página inicial</a> -->
+    <% if(locals.user && locals.admin) {%>
+    <!-- <a href="/admin">Administrador</a> -->
+    <% }%> <% if(locals.user){%>
     <form action="/logout" method="post">
       <button type="submit" class="btn-logout">Logout</button>
     </form>
-    <% }else {%> |
+    <% }else {%>
     <a href="/login">Login</a>
     <% }%>
   </div>

@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 html {
-  font-size: 16px;
+  font-size: 18px;
 }
 h1 {
   color: #1048b1;
@@ -16,10 +16,12 @@ header form {
 }
 header {
   padding: 30px 20px;
+  text-align: right;
 }
 header a {
   color: #3875e6;
   text-decoration: none;
+  margin-right: 50px;
 }
 
 a:hover {
@@ -52,12 +54,13 @@ button {
   width: auto;
   height: 40px;
   padding: 0;
-  margin: 0;
+  margin-right: 50px;
   cursor: pointer;
   background-color: transparent;
   color: #3875e6;
   text-decoration: none;
   border-radius: 0;
+  font-size: 20px;
 }
 .btn-logout:hover {
   color: rgb(85, 72, 202);
