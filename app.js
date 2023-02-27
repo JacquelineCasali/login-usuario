@@ -18,14 +18,13 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 app.use(cookieParser());
-// ! NUNCA MANDAR O SECRET PARA O GITHUB
+
 app.use(session({ secret: "Eu amo cuscuz" }));
 
-// Configura pasta estática para acesso externo
 app.use(express.static(path.join(__dirname, "public")));
-// Configura o template engine, troca do padrão (jade) para ejs
+
 app.set("view engine", "ejs");
-// Configura o caminho para os views, troca o padrão que é no raiz para o src
+
 app.set("views", path.join(__dirname, "src", "views"));
 
 app.use("/", indexRoute);
