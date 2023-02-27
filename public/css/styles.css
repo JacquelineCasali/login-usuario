@@ -9,6 +9,7 @@ html {
 h1 {
   color: #1048b1;
   margin: 10px 0;
+  text-align: center;
 }
 header form {
   display: inline;
@@ -97,6 +98,7 @@ a button {
 .form-container form {
   width: 100%;
 }
+
 @media only screen and (min-width: 600px) {
   .form-container form {
     width: 80%;

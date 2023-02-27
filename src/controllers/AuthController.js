@@ -19,7 +19,7 @@ const authController = {
       "utf-8"
     );
     const users = JSON.parse(usersJson);
-
+// console.log(users)
     const { nome, sobrenome, apelido, email, senha, confirmar_senha } =
       req.body;
     // VALIDAÇÕES
