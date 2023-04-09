@@ -14,3 +14,4 @@ npm install method-override
 npm install express-session
 npm install cookie-parser
 npm install bcrypt
+.vercel
