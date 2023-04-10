@@ -1,8 +1,6 @@
-gitignore
-imagens
 node_modules
-package-lock.json
 yarn.lock
+.env
 
 Resumo de instalação
 npm init -y
@@ -14,4 +12,4 @@ npm install method-override
 npm install express-session
 npm install cookie-parser
 npm install bcrypt
-.vercel
+
