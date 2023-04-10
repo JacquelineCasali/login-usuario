@@ -1,7 +1,7 @@
 node_modules
 yarn.lock
 .env
-
+imagens
 Resumo de instalação
 npm init -y
 git init
